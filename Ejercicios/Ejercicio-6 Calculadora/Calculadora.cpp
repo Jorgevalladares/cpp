@@ -9,6 +9,7 @@ int main(int argc, char const *argv[])
     int numero2 = 0;
     int numero3 = 0;
     int numero4 = 0;
+   
     cout << "Ingrese el valor de a: ";
 	cin >> a;
 	
