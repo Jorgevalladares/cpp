@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
 
    raizcuadrada = sqrt(numero);
 
-   cout << "la raiz cuadrada del numero ingresado es: " << raizcuadrada;
+   cout << "la raiz del numero ingresado es: " << raizcuadrada;
 
     return 0;
 }
