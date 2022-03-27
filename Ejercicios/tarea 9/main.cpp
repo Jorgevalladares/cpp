@@ -19,20 +19,25 @@ int main(int argc, char const *argv[])
        
     if (suma == 7 || suma == 11)
     {   
-        cout << "GANASTES!" << endl; 
+        cout << "SUPER 7" << endl;
+        cout << "*******" << endl;
         cout << "El jugador tiro: "<< dado1 << "+" << dado2 << "="<< suma << endl;
+        cout << "GANASTES!" << endl; 
         return 0;
     }   
     if (suma == 2 || suma == 3 || suma == 12)
     {
-        cout << "PERDISTES!" << endl;
+        cout << "SUPER 7" << endl;
+        cout << "*******" << endl;
         cout << "El jugador tiro: "<< dado1 << "+" << dado2 << "="<< suma << endl;
+        cout << "PERDISTES!" << endl;
     }         
     else 
     {    
-        cout << "CONTINUA!" << endl;
+        cout << "SUPER 7" << endl;
+        cout << "*******" << endl;
         cout << "El jugador tiro: "<< dado1 << "+" << dado2 << "="<< suma << endl;
-        
+        cout << "CONTINUA!" << endl;
     }   
    
 
